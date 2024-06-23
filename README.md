@@ -25,8 +25,8 @@
 ### pcb
 <table>
     <tr align=center>
-        <th width=35%>피크 전류</th>
-        <th width=35%>Neural Network 연산 시 전류</td>
+        <th width=35%>PCB 앞면</th>
+        <th width=35%>PCB 뒷면</td>
     </tr>
     <tr>
       <td align=center><img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/887c4f98-7ed3-4951-9eee-dfe40d755ce4" width="%"></td>
@@ -58,14 +58,14 @@
         <th width=35%>Neural Network 연산 시 전류</td>
     </tr>
     <tr>
-      <td align=center><img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/dc2dc392-b3c3-4f36-a33f-604725e70a85" width="35%"></td>
-      <td align=center><img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/78ce6964-d8cf-4036-9db8-de0fb46e3ddb" width="35%"></td>
+      <td align=center><img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/cfd80b52-72ba-45be-a965-1033bc8441f8" width="35%"></td>
+      <td align=center><img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/caf8739e-6835-4652-8b9e-8db89d9aea5f" width="35%"></td>
     </tr>
 </table>
 ###
   <!-- 
-![KakaoTalk_20240604_165802999_01](https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/dc2dc392-b3c3-4f36-a33f-604725e70a85)
-![KakaoTalk_20240604_165802999](https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/78ce6964-d8cf-4036-9db8-de0fb46e3ddb)
+![KakaoTalk_20240604_165802999_012](https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/cfd80b52-72ba-45be-a965-1033bc8441f8)
+![KakaoTalk_20240604_1658029992](https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/caf8739e-6835-4652-8b9e-8db89d9aea5f)
  -->
 
 ## 2024-2학기 - 캡스톤디자인2
