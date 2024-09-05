@@ -153,52 +153,52 @@ int row = 0;
 /* USER CODE END 0 */
 
 /**
-  * @brief  The application entry point.
-  * @retval int
-  */
-int main(void)
-{
+ * @brief  The application entry point.
+ * @retval int
+ */
+int main(void) {
 
-  /* USER CODE BEGIN 1 */
+	/* USER CODE BEGIN 1 */
 
-  /* USER CODE END 1 */
+	/* USER CODE END 1 */
 
-  /* MCU Configuration--------------------------------------------------------*/
+	/* MCU Configuration--------------------------------------------------------*/
 
-  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
+	/* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+	HAL_Init();
 
-  /* USER CODE BEGIN Init */
+	/* USER CODE BEGIN Init */
 
-  /* USER CODE END Init */
+	/* USER CODE END Init */
 
-  /* Configure the system clock */
-  SystemClock_Config();
+	/* Configure the system clock */
+	SystemClock_Config();
 
-  /* Configure the System Power */
-  SystemPower_Config();
+	/* Configure the System Power */
+	SystemPower_Config();
 
-  /* USER CODE BEGIN SysInit */
+	/* USER CODE BEGIN SysInit */
 
-  /* USER CODE END SysInit */
+	/* USER CODE END SysInit */
 
-  /* Initialize all configured peripherals */
-  MX_GPIO_Init();
-  MX_GPDMA1_Init();
-  MX_DCMI_Init();
-  MX_ICACHE_Init();
-  MX_USART1_UART_Init();
-  MX_SPI1_Init();
-  MX_I2C1_Init();
-  MX_ADC1_Init();
-  MX_ADC2_Init();
-  MX_X_CUBE_AI_Init();
-  /* USER CODE BEGIN 2 */
+	/* Initialize all configured peripherals */
+	MX_GPIO_Init();
+	MX_GPDMA1_Init();
+	MX_DCMI_Init();
+	MX_ICACHE_Init();
+	MX_USART1_UART_Init();
+	MX_SPI1_Init();
+	MX_I2C1_Init();
+	MX_ADC1_Init();
+	MX_ADC2_Init();
+	MX_X_CUBE_AI_Init();
+	/* USER CODE BEGIN 2 */
 	//gibon setting
 	HAL_Delay(10);
 	OV2640_Init(&hi2c1, &hdcmi);
 	armi_init_first(1);
 	camera_capture(1);
+
 	HAL_GPIO_WritePin(POW_EN_GPIO_Port, POW_EN_Pin, GPIO_PIN_RESET);
 	HAL_Delay(500);
 	HAL_GPIO_WritePin(POW_EN_GPIO_Port, POW_EN_Pin, GPIO_PIN_SET);
@@ -215,15 +215,15 @@ int main(void)
 
 	HAL_GPIO_WritePin(DCMI_PWDN_GPIO_Port, DCMI_PWDN_Pin, GPIO_PIN_SET);
 	OV2640_StopDCMI();
-  /* USER CODE END 2 */
+	/* USER CODE END 2 */
 
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
+	/* Infinite loop */
+	/* USER CODE BEGIN WHILE */
 	while (1) {
-    /* USER CODE END WHILE */
+		/* USER CODE END WHILE */
 
-  MX_X_CUBE_AI_Process();
-    /* USER CODE BEGIN 3 */
+		MX_X_CUBE_AI_Process();
+		/* USER CODE BEGIN 3 */
 
 		for (int idx = 0; idx < AI_NETWORK_OUT_NUM; idx++) {
 			if (*data_outs[idx] > 128) {
@@ -245,87 +245,82 @@ int main(void)
 		HAL_Delay(10);
 		standby_mode();
 	}
-  /* USER CODE END 3 */
+	/* USER CODE END 3 */
 }
 
 /**
-  * @brief System Clock Configuration
-  * @retval None
-  */
-void SystemClock_Config(void)
-{
-  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
-  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+ * @brief System Clock Configuration
+ * @retval None
+ */
+void SystemClock_Config(void) {
+	RCC_OscInitTypeDef RCC_OscInitStruct = { 0 };
+	RCC_ClkInitTypeDef RCC_ClkInitStruct = { 0 };
 
-  /** Configure the main internal regulator output voltage
-  */
-  if (HAL_PWREx_ControlVoltageScaling(PWR_REGULATOR_VOLTAGE_SCALE1) != HAL_OK)
-  {
-    Error_Handler();
-  }
+	/** Configure the main internal regulator output voltage
+	 */
+	if (HAL_PWREx_ControlVoltageScaling(PWR_REGULATOR_VOLTAGE_SCALE1)
+			!= HAL_OK) {
+		Error_Handler();
+	}
 
-  /** Initializes the CPU, AHB and APB buses clocks
-  */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI|RCC_OSCILLATORTYPE_MSI;
-  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
-  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
-  RCC_OscInitStruct.MSIState = RCC_MSI_ON;
-  RCC_OscInitStruct.MSICalibrationValue = RCC_MSICALIBRATION_DEFAULT;
-  RCC_OscInitStruct.MSIClockRange = RCC_MSIRANGE_0;
-  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_MSI;
-  RCC_OscInitStruct.PLL.PLLMBOOST = RCC_PLLMBOOST_DIV4;
-  RCC_OscInitStruct.PLL.PLLM = 3;
-  RCC_OscInitStruct.PLL.PLLN = 10;
-  RCC_OscInitStruct.PLL.PLLP = 8;
-  RCC_OscInitStruct.PLL.PLLQ = 2;
-  RCC_OscInitStruct.PLL.PLLR = 1;
-  RCC_OscInitStruct.PLL.PLLRGE = RCC_PLLVCIRANGE_1;
-  RCC_OscInitStruct.PLL.PLLFRACN = 0;
-  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
-  {
-    Error_Handler();
-  }
+	/** Initializes the CPU, AHB and APB buses clocks
+	 */
+	RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI
+			| RCC_OSCILLATORTYPE_MSI;
+	RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+	RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
+	RCC_OscInitStruct.MSIState = RCC_MSI_ON;
+	RCC_OscInitStruct.MSICalibrationValue = RCC_MSICALIBRATION_DEFAULT;
+	RCC_OscInitStruct.MSIClockRange = RCC_MSIRANGE_0;
+	RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+	RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_MSI;
+	RCC_OscInitStruct.PLL.PLLMBOOST = RCC_PLLMBOOST_DIV4;
+	RCC_OscInitStruct.PLL.PLLM = 3;
+	RCC_OscInitStruct.PLL.PLLN = 10;
+	RCC_OscInitStruct.PLL.PLLP = 8;
+	RCC_OscInitStruct.PLL.PLLQ = 2;
+	RCC_OscInitStruct.PLL.PLLR = 1;
+	RCC_OscInitStruct.PLL.PLLRGE = RCC_PLLVCIRANGE_1;
+	RCC_OscInitStruct.PLL.PLLFRACN = 0;
+	if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK) {
+		Error_Handler();
+	}
 
-  /** Initializes the CPU, AHB and APB buses clocks
-  */
-  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
-                              |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2
-                              |RCC_CLOCKTYPE_PCLK3;
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
-  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
-  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
-  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
-  RCC_ClkInitStruct.APB3CLKDivider = RCC_HCLK_DIV1;
+	/** Initializes the CPU, AHB and APB buses clocks
+	 */
+	RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK | RCC_CLOCKTYPE_SYSCLK
+			| RCC_CLOCKTYPE_PCLK1 | RCC_CLOCKTYPE_PCLK2 | RCC_CLOCKTYPE_PCLK3;
+	RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+	RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+	RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
+	RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+	RCC_ClkInitStruct.APB3CLKDivider = RCC_HCLK_DIV1;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_4) != HAL_OK)
-  {
-    Error_Handler();
-  }
+	if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_4) != HAL_OK) {
+		Error_Handler();
+	}
 }
 
 /**
-  * @brief Power Configuration
-  * @retval None
-  */
-static void SystemPower_Config(void)
-{
-  HAL_PWREx_EnableVddIO2();
+ * @brief Power Configuration
+ * @retval None
+ */
+static void SystemPower_Config(void) {
+	HAL_PWREx_EnableVddIO2();
 
-  /*
-   * Disable the internal Pull-Up in Dead Battery pins of UCPD peripheral
-   */
-  HAL_PWREx_DisableUCPDDeadBattery();
+	/*
+	 * Disable the internal Pull-Up in Dead Battery pins of UCPD peripheral
+	 */
+	HAL_PWREx_DisableUCPDDeadBattery();
 
-  /*
-   * Switch to SMPS regulator instead of LDO
-   */
-  if (HAL_PWREx_ConfigSupply(PWR_SMPS_SUPPLY) != HAL_OK)
-  {
-    Error_Handler();
-  }
-/* USER CODE BEGIN PWR */
-/* USER CODE END PWR */
+	/*
+	 * Switch to SMPS regulator instead of LDO
+	 */
+	if (HAL_PWREx_ConfigSupply(PWR_SMPS_SUPPLY) != HAL_OK) {
+		Error_Handler();
+	}
+	/* USER CODE BEGIN PWR */
+	/* USER CODE END PWR */
 }
 
 /* USER CODE BEGIN 4 */
@@ -532,9 +527,10 @@ void armi_image_tx() {
 	//for (int i = 0; i < 7; i += 8) {
 	sprintf(tx_data,
 			"%1d%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x\0",
-			num, frameBuffer_jpeg[0], frameBuffer_jpeg[1], frameBuffer_jpeg[2], frameBuffer_jpeg[3],
-			frameBuffer_jpeg[4], frameBuffer_jpeg[5], frameBuffer_jpeg[6], frameBuffer_jpeg[7],
-			frameBuffer_jpeg[8], frameBuffer_jpeg[9], frameBuffer_jpeg[10], frameBuffer_jpeg[11],
+			num, frameBuffer_jpeg[0], frameBuffer_jpeg[1], frameBuffer_jpeg[2],
+			frameBuffer_jpeg[3], frameBuffer_jpeg[4], frameBuffer_jpeg[5],
+			frameBuffer_jpeg[6], frameBuffer_jpeg[7], frameBuffer_jpeg[8],
+			frameBuffer_jpeg[9], frameBuffer_jpeg[10], frameBuffer_jpeg[11],
 			frameBuffer_jpeg[12], frameBuffer_jpeg[13], frameBuffer_jpeg[14]);
 
 	while (1) {
@@ -638,17 +634,16 @@ void UART1_print_2_byte_float(uint16_t n) {
 /* USER CODE END 4 */
 
 /**
-  * @brief  This function is executed in case of error occurrence.
-  * @retval None
-  */
-void Error_Handler(void)
-{
-  /* USER CODE BEGIN Error_Handler_Debug */
+ * @brief  This function is executed in case of error occurrence.
+ * @retval None
+ */
+void Error_Handler(void) {
+	/* USER CODE BEGIN Error_Handler_Debug */
 	/* User can add his own implementation to report the HAL error return state */
 	__disable_irq();
 	while (1) {
 	}
-  /* USER CODE END Error_Handler_Debug */
+	/* USER CODE END Error_Handler_Debug */
 }
 
 #ifdef  USE_FULL_ASSERT
