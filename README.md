@@ -1,7 +1,37 @@
 # 2024_A.RM.I_Public
 2024 캡스톤디자인 1, 2 졸업작품 2024_A.RM.I의 main 코드입니다.
 
+## 작품 사진
+### 1차
+<table>
+    <tr align=center>
+        <th width=35%>앞면</th>
+        <th width=35%>뒷면</td>
+    </tr>
+    <tr>
+      <td align=center><img src="https://github.com/user-attachments/assets/e7d2cc7d-b772-42bf-8750-27be98a86a54" width="40%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/e949ea68-ea32-48f8-984c-f265b4a7c2f6" width="40%"></td>
+    </tr>
+</table>
+<!--
+![20240603_095538](https://github.com/user-attachments/assets/e7d2cc7d-b772-42bf-8750-27be98a86a54)
+![20240603_095737](https://github.com/user-attachments/assets/e949ea68-ea32-48f8-984c-f265b4a7c2f6)
+-->
 
+### 2차
+<table>
+    <tr align=center>
+        <th width=35%>뒷면</td>
+    </tr>
+    <tr>
+      <td align=center><img src="https://github.com/user-attachments/assets/d342c03b-e8ef-4043-bd37-56ef397f784f" width="50%"></td>
+    </tr>
+</table>
+
+<!--
+![20240831_171155](https://github.com/user-attachments/assets/d342c03b-e8ef-4043-bd37-56ef397f784f)
+
+-->
 
 ## 2024-1학기 - 캡스톤디자인1
 <details>
