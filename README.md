@@ -61,15 +61,182 @@
     <summary>각 팀원별 진행 과정 [펼치기/접기]</summary>
 
 <!-- 순서:  KimTeddy / MoonScott / iamgodjinsu / minjoll / jungminhye / 공통-->
+<table>
+  <thead>
+    <tr>
+      <th>주차</th>
+      <th><a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=KimTeddy"><code>KimTeddy</code></a><br>(나, 팀장)</th>
+      <th><a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=MoonScott"><code>MoonScott</code></a><br>(총무)</th>
+      <th><a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=iamgodjinsu"><code>iamgodjinsu</code></a></th>
+      <th><a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=minjoll"><code>minjoll</code></a></th>
+      <th><a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=jungminhye"><code>jungminhye</code></a></th>
+      <th>공통</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>6/24~6/30</td>
+      <td>2차 PCB 설계</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7/1 ~ 7/7</td>
+      <td>2차 PCB 설계</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7/8 ~7/14</td>
+      <td>2차 PCB 설계</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7/15~7/21</td>
+      <td>
+        <ul>
+          <li>OpenCV 세팅하기</li>
+          <li>RF_TX가 보내고 RF_RX가 받기 성공하면 받았다고 ack 보낸 내용을 RF_TX가 받아서 통신 종료하기 성공</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>보고서 작성 시작하기</li>
+          <li>UI 추가 수정(배터리 추가)</li>
+        </ul>
+      </td>
+      <td>H7A3에서 OV2640 JPEG 이미지 받기</td>
+      <td>
+        <ul>
+          <li>Qt 설치 후 방법 알려주기</li>
+          <li>UI에서 버튼 누르면 이미지 바꾸기 성공</li>
+        </ul>
+      </td>
+      <td>Visual Studio에서 YOLO 시도 시작</td>
+      <td>
+        <ul>
+          <li>OpenCV 설치하기</li>
+          <li>Qt 설치하기</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>7/22<br>~7/28</td>
+      <td></td>
+      <td></td>
+      <td>7/28:H7A3에서 OV2640 JPEG 성공공</td>
+      <td></td>
+      <td></td>
+      <td>8/4(일) 회의</td>
+    </tr>
+    <tr>
+      <td>7/29<br>~8/4</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>8/4(일) 회의</td>
+    </tr>
+    <tr>
+      <td>8/12<br>~8/18</td>
+      <td>
+              <ul>
+              <li>8/14:RF USB PCB v1 설계 시작</li>
+              <li>8/18:보드용 PCB v2.0.1 설계 시작</li>
+              </ul>
+      </td>
+      <td></td>
+      <td>8/12:JPEG 디코딩 커뮤니티 답변 받음</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8/19<br>~8/25</td>
+      <td>8/23:PCB v2.0 첫 납땜
+              <ul>
+                      <li>MCU 실장 정상 작동</li>
+                      <li>PIR 오작동</li>
+              </ul>
+              8/24:안테나 회로 정상 확인<br>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8/26 ~ 9/1</td>
+      <td>8/27(화):
+                <ul>
+                  <li>3.3V 벅-부스트 스위칭 레귤레이터</li>
+                  <li>USB Virtual com port 통신</li>
+                  <li>USB data plus 핀을 통한 USB 연결 신호 회로 작동</li>
+                  <li>OV2640, RF 모듈 전원 on/off 회로 작동</li>
+                  <li>2.8V 레귤레이터 작동</li>
+                  <li>단색 LED 4개, RGB LED 작동 확인 및 함수 코딩</li>
+                  <li>배터리 ADC</li>
+                </ul>
+              8/28(수):
+            <ul>
+              <li>OV2640 I2C 레지스터 세팅 정상</li>
+              <li>1.3V 레귤레이터 작동</li>
+              <li>배터리 소켓 뒤집어서 납땜</li>
+                <li>ADC 핀 이동</li>
+                <li>USB C CC1,CC2 풀다운 추가</li>
+            </ul>
+          8/29(목):
+              PIR 센서 신호 인버터 회로 정상 작동
+          </li>
+        </ul>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>8/29:회의</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--
 | 주차 | <a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=KimTeddy"><code>KimTeddy</code></a><br>(나, 팀장) | <a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=MoonScott"><code>MoonScott</code></a><br>(총무) | <a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=iamgodjinsu"><code>iamgodjinsu</code></a> | <a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=minjoll"><code>minjoll</code></a> | <a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=jungminhye"><code>jungminhye</code></a> | 공통 |
 |-:|-----|-----|-----|-----|-----|-|
 |6/24~6/30| 2차 PCB 설계 |  |  |  |  ||
 |7/1 ~ 7/7| 2차 PCB 설계 |  |  |  |  ||
 |7/8 ~7/14| 2차 PCB 설계 |  |  |  |  ||
 |7/15~7/21| - OpenCV 세팅하기<br>- RF_TX가 보내고 RF_RX가 받기 성공하면 받았다고 ack 보낸 내용을 RF_TX가 받아서 통신 종료하기 성공 | - 보고서 작성 시작하기<br> - UI 추가 수정(배터리 추가) |  H7A3에서 OV2640 JPEG 이미지 받기 | - Qt 설치 후 방법 알려주기<br> - UI에서 버튼 누르면 이미지 바꾸기 성공 | Visual Studio에서 YOLO 시도 시작 | - OpenCV 설치하기<br>- Qt 설치하기 |
+|8/26 ~ 9/1| [PCB 검증]<br>-8/28:•OV2640회로 중 I2C 레지스터 세팅 정상<br>•1.3V 레귤레이터 작동<br>-8/29:<br>•PIR 센서 신호 인버터 회로 정상 작동 |  |  |  |  ||
+-->
+</details>
+
+## 2024-2학기 - 캡스톤디자인2
+<details>
+    <summary>각 팀원별 진행 과정 [펼치기/접기]</summary>
+
+<!-- 순서:  KimTeddy / MoonScott / iamgodjinsu / minjoll / jungminhye / 공통-->
+| 주차 | <a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=KimTeddy"><code>KimTeddy</code></a><br>(나, 팀장) | <a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=iamgodjinsu"><code>iamgodjinsu</code></a> | <a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=jungminhye"><code>jungminhye</code></a> | 공통 |
+|-:|-----|-----|-----|-|
+|6/24~6/30| 2차 PCB 설계 |  |  ||
+|7/1 ~ 7/7| 2차 PCB 설계 |  |  ||
+|7/8 ~7/14| 2차 PCB 설계 |  |  ||
+|7/15~7/21| - OpenCV 세팅하기<br>- RF_TX가 보내고 RF_RX가 받기 성공하면 받았다고 ack 보낸 내용을 RF_TX가 받아서 통신 종료하기 성공 | - 보고서 작성 시작하기<br> - UI 추가 수정(배터리 추가) |  H7A3에서 OV2640 JPEG 이미지 받기 | - Qt 설치 후 방법 알려주기<br> - UI에서 버튼 누르면 이미지 바꾸기 성공 | Visual Studio에서 YOLO 시도 시작 | - OpenCV 설치하기<br>- Qt 설치하기 |
 
 
 </details>
+
 
 ### pcb
 <table>
