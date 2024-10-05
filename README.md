@@ -282,14 +282,14 @@
     </tr>
     <tr>
       <td>10/14~10/20</td>
-      <td></td>
+      <td>PCB v2.1 납땜</td>
       <td></td>
       <td></td>
       <td>7주차 PPT 제작</td>
     </tr>
     <tr>
       <td>10/21~10/27</td>
-      <td>PCB v2.1 납땜</td>
+      <td></td>
       <td></td>
       <td></td>
       <td>8주차 PPT 제작, ESW오프라인 심사</td>
