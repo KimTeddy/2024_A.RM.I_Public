@@ -227,13 +227,75 @@
     <summary>각 팀원별 진행 과정 [펼치기/접기]</summary>
 
 <!-- 순서:  KimTeddy / MoonScott / iamgodjinsu / minjoll / jungminhye / 공통-->
-| 주차 | <a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=KimTeddy"><code>KimTeddy</code></a><br>(나, 팀장) | <a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=iamgodjinsu"><code>iamgodjinsu</code></a> | <a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=jungminhye"><code>jungminhye</code></a> | 공통 |
-|-:|-----|-----|-----|-|
-|6/24~6/30| 2차 PCB 설계 |  |  ||
-|7/1 ~ 7/7| 2차 PCB 설계 |  |  ||
-|7/8 ~7/14| 2차 PCB 설계 |  |  ||
-|7/15~7/21| - OpenCV 세팅하기<br>- RF_TX가 보내고 RF_RX가 받기 성공하면 받았다고 ack 보낸 내용을 RF_TX가 받아서 통신 종료하기 성공 | - 보고서 작성 시작하기<br> - UI 추가 수정(배터리 추가) |  H7A3에서 OV2640 JPEG 이미지 받기 | - Qt 설치 후 방법 알려주기<br> - UI에서 버튼 누르면 이미지 바꾸기 성공 | Visual Studio에서 YOLO 시도 시작 | - OpenCV 설치하기<br>- Qt 설치하기 |
-
+<table>
+  <thead>
+    <tr>
+      <th>주차</th>
+      <th><a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=KimTeddy"><code>KimTeddy</code></a><br>(나, 팀장)</th>
+      <th><a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=iamgodjinsu"><code>iamgodjinsu</code></a></th>
+      <th><a href="https://github.com/KimTeddy/2024_A.RM.I/commits?author=jungminhye"><code>jungminhye</code></a></th>
+      <th>공통</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>9/2~9/8</td>
+      <td>PCBv2 MPPT 회로 납땜, 1:1 RF 이미지 전송</td>
+      <td></td>
+      <td>Windows C++환경 YOLOv4 작동</td>
+      <td>ESW 신청</td>
+    </tr>
+    <tr>
+      <td>9/9~9/15</td>
+      <td>//</td>
+      <td>Qt 공부</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9/16~9/22</td>
+      <td>DCMI 작동 확인용 OV2640 모듈 단자 와이어링</td>
+      <td>Qt 공부</td>
+      <td>CGAN 공부</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9/23~9/29</td>
+      <td>PCB 디버깅(DCMI 작동 확인)</td>
+      <td></td>
+      <td>-</td>
+      <td>4주차 PPT 제작</td>
+    </tr>
+    <tr>
+      <td>9/30~10/6</td>
+      <td>PCB 디버깅(PIR회로 재시도, OV2640회로 작동 확인)</td>
+      <td>1:N 통신 알고리즘 구현</td>
+      <td>CGAN 이용 훈련데이터 생성</td>
+      <td>5주차 PPT 제작</td>
+    </tr>
+    <tr>
+      <td>10/7~10/13</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>6주차 PPT 제작</td>
+    </tr>
+    <tr>
+      <td>10/14~10/20</td>
+      <td>if(PCB 디버깅 완료) PCB v2.1 주문</td>
+      <td></td>
+      <td></td>
+      <td>7주차 PPT 제작</td>
+    </tr>
+    <tr>
+      <td>10/21~10/27</td>
+      <td>PCB v2.1 납땜</td>
+      <td></td>
+      <td></td>
+      <td>8주차 PPT 제작</td>
+    </tr>
+  </tbody>
+</table>
 
 </details>
 
@@ -241,8 +303,8 @@
 ### pcb
 <table>
     <tr align=center>
-        <th width=35%>PCB 앞면</th>
-        <th width=35%>PCB 뒷면</td>
+        <th width=35%>1차 PCB 앞면</th>
+        <th width=35%>1차 PCB 뒷면</td>
     </tr>
     <tr>
       <td align=center><img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/887c4f98-7ed3-4951-9eee-dfe40d755ce4" width="%"></td>
