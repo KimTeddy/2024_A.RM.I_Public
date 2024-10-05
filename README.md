@@ -137,7 +137,7 @@
       <td>7/28:H7A3에서 OV2640 JPEG 성공공</td>
       <td></td>
       <td></td>
-      <td>8/4(일) 회의</td>
+      <td>7/22(월) 회의</td>
     </tr>
     <tr>
       <td>7/29<br>~8/4</td>
@@ -206,7 +206,7 @@
       <td></td>
       <td></td>
       <td></td>
-      <td>8/29:회의</td>
+      <td>8/29(목) 회의</td>
     </tr>
   </tbody>
 </table>
@@ -264,7 +264,7 @@
       <td>PCB 디버깅(DCMI 작동 확인)</td>
       <td></td>
       <td>-</td>
-      <td>4주차 PPT 제작</td>
+      <td>4주차 PPT 제작, 9/25(수) 회의</td>
     </tr>
     <tr>
       <td>9/30~10/6</td>
