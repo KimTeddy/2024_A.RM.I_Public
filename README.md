@@ -240,8 +240,8 @@
   <tbody>
     <tr>
       <td>9/2~9/8</td>
-      <td>PCBv2 MPPT 회로 납땜, 1:1 RF 이미지 전송</td>
-      <td></td>
+      <td>PCBv2 MPPT 회로 납땜, 1:1 RF 이미지 전송, 서버 전체 코드 통합</td>
+      <td>Windows C++환경 UART 데이터 배열 저장</td>
       <td>Windows C++환경 YOLOv4 작동</td>
       <td>ESW 신청</td>
     </tr>
@@ -249,7 +249,7 @@
       <td>9/9~9/15</td>
       <td>//</td>
       <td>Qt 공부</td>
-      <td></td>
+      <td>-</td>
       <td></td>
     </tr>
     <tr>
