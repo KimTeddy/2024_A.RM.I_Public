@@ -270,19 +270,19 @@
       <td>9/30~10/6</td>
       <td>PCB 디버깅(PIR회로 재시도, OV2640회로 작동 확인)</td>
       <td>1:N 통신 알고리즘 구현</td>
-      <td>CGAN 이용 훈련데이터 생성</td>
+      <td>CGAN 이용 훈련데이터 생성(Edge Device NN모델 성능 강화)</td>
       <td>5주차 PPT 제작</td>
     </tr>
     <tr>
       <td>10/7~10/13</td>
-      <td></td>
+      <td>SERVER PCB 주문, PCB v2.1 수정 후 주문</td>
       <td></td>
       <td></td>
       <td>6주차 PPT 제작</td>
     </tr>
     <tr>
       <td>10/14~10/20</td>
-      <td>if(PCB 디버깅 완료) PCB v2.1 주문</td>
+      <td></td>
       <td></td>
       <td></td>
       <td>7주차 PPT 제작</td>
@@ -292,7 +292,14 @@
       <td>PCB v2.1 납땜</td>
       <td></td>
       <td></td>
-      <td>8주차 PPT 제작</td>
+      <td>8주차 PPT 제작, ESW오프라인 심사</td>
+    </tr>
+    <tr>
+      <td>10/28~11/3</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>9주차 PPT 제작</td>
     </tr>
   </tbody>
 </table>
