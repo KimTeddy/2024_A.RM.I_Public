@@ -5,8 +5,8 @@
 ### 1차
 <table>
     <tr align=center>
-        <th width=35%>앞면</th>
-        <th width=35%>뒷면</td>
+        <th width=35%>전면</th>
+        <th width=35%>후면</td>
     </tr>
     <tr>
       <td align=center><img src="https://github.com/user-attachments/assets/e7d2cc7d-b772-42bf-8750-27be98a86a54" width="40%"></td>
@@ -21,17 +21,38 @@
 ### 2차
 <table>
     <tr align=center>
-        <th width=35%>뒷면</td>
+        <th width=35%>PCB 후면</td>
+        <th width=35%>케이스 조립(후면)</td>
+        <th width=35%>케이스 조립(전면)</td>
     </tr>
     <tr>
-      <td align=center><img src="https://github.com/user-attachments/assets/d342c03b-e8ef-4043-bd37-56ef397f784f" width="50%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/d342c03b-e8ef-4043-bd37-56ef397f784f" width="100%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/e03ac7db-3003-4ef3-b040-5c6877dd2d39" width="50%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/997c9095-b84f-441b-9be1-441c1d06dbd6" width="50%"></td>
+    </tr>
+</table>
+<!--
+![20240831_171155](https://github.com/user-attachments/assets/d342c03b-e8ef-4043-bd37-56ef397f784f)
+![20241106_170117](https://github.com/user-attachments/assets/e03ac7db-3003-4ef3-b040-5c6877dd2d39)
+![20241106_170221](https://github.com/user-attachments/assets/997c9095-b84f-441b-9be1-441c1d06dbd6)
+-->
+
+### 3차(추가 예정)
+<table>
+    <tr align=center>
+        <th width=35%>PCB 후면</td>
+        <th width=35%>PCB 전면</td>
+        <th width=35%>케이스 조립(후면)</td>
+        <th width=35%>케이스 조립(전면)</td>
+    </tr>
+    <tr>
+      <td align=center><img src="" width="40%"></td>
+      <td align=center><img src="" width="40%"></td>
+      <td align=center><img src="" width="40%"></td>
+      <td align=center><img src="" width="40%"></td>
     </tr>
 </table>
 
-<!--
-![20240831_171155](https://github.com/user-attachments/assets/d342c03b-e8ef-4043-bd37-56ef397f784f)
-
--->
 
 ## 2024-1학기 - 캡스톤디자인1
 <details>
@@ -300,6 +321,20 @@
       <td></td>
       <td></td>
       <td>9주차 PPT 제작</td>
+    </tr>
+    <tr>
+      <td>11/4~11/10</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>10주차 PPT 제작</td>
+    </tr>
+    <tr>
+      <td>11/11~11/17</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>11주차 PPT 제작</td>
     </tr>
   </tbody>
 </table>
