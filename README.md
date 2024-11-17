@@ -1,5 +1,14 @@
-![image](https://github.com/user-attachments/assets/45b3d2c8-175a-436c-9115-a35fc444addb)# 2024_A.RM.I_Public
-2024 캡스톤디자인 1, 2 졸업작품 2024_A.RM.I의 main 코드입니다.
+# 2024_A.RM.I_Public
+- 2024 캡스톤디자인 1, 2 졸업작품 2024_A.RM.I의 main 코드입니다.
+    1. Edge Device: ``````
+    2. Server Receiver: ``````
+    3. Server: ``````
+
+## 작동 영상
+<div align=center>
+    
+[![Video Label](http://img.youtube.com/vi/RNpNJ6A_28k/0.jpg)](https://www.youtube.com/watch?v=RNpNJ6A_28k)
+</div>
 
 ## 작품 사진
 ### 1차
@@ -21,14 +30,14 @@
 ### 2차
 <table>
     <tr align=center>
-        <th width=35%>PCB 후면</td>
-        <th width=35%>케이스 조립(후면)</td>
-        <th width=35%>케이스 조립(전면)</td>
+        <th width=40%>PCB 후면</td>
+        <th width=30%>케이스 조립(후면)</td>
+        <th width=30%>케이스 조립(전면)</td>
     </tr>
     <tr>
       <td align=center><img src="https://github.com/user-attachments/assets/d342c03b-e8ef-4043-bd37-56ef397f784f" width="100%"></td>
-      <td align=center><img src="https://github.com/user-attachments/assets/e03ac7db-3003-4ef3-b040-5c6877dd2d39" width="50%"></td>
-      <td align=center><img src="https://github.com/user-attachments/assets/997c9095-b84f-441b-9be1-441c1d06dbd6" width="50%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/e03ac7db-3003-4ef3-b040-5c6877dd2d39" width="75%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/997c9095-b84f-441b-9be1-441c1d06dbd6" width="75%"></td>
     </tr>
 </table>
 <!--
@@ -298,43 +307,43 @@
       <td>10/7~10/13</td>
       <td>RF용 PCB 수정</td>
       <td>릴레이 통신을 위한 위치 지정 알고리즘</td>
-      <td></td>
+      <td>-</td>
       <td>6주차 PPT 제작</td>
     </tr>
     <tr>
       <td>10/14~10/20</td>
       <td>RF용 PCB 최종 검토 후 주문</td>
-      <td>//</td>
-      <td></td>
+      <td>〃</td>
+      <td>-</td>
       <td>7주차 PPT 제작</td>
     </tr>
     <tr>
       <td>10/21~10/27</td>
-      <td>추가 부품 주문 완료, Edge Device 2개 추가 납땜</td>
-      <td>//</td>
-      <td></td>
+      <td>추가 부품 주문 완료,<br>Edge Device 2개 추가 납땜</td>
+      <td>〃</td>
+      <td>-</td>
       <td>중간고사(8주차 PPT 제작X)</td>
     </tr>
     <tr>
       <td>10/28~11/3</td>
-      <td>RF용 PCB 작동 확인 완료, 제품 외관 케이스 설계, 3D 프린트</td>
-      <td></td>
-      <td></td>
+      <td>RF용 PCB 작동 확인 완료,<br>제품 외관 케이스 설계 및 3D 프린트</td>
+      <td>〃</td>
+      <td>-</td>
       <td>9주차 PPT 제작, ESW 결선 심사</td>
     </tr>
     <tr>
       <td>11/4~11/10</td>
       <td>PCB v2.1 Schematic, Artwork 수정</td>
-      <td></td>
-      <td></td>
+      <td>〃</td>
+      <td>-</td>
       <td>10주차 PPT 제작</td>
     </tr>
     <tr>
       <td>11/11~11/17</td>
-      <td>PCB v2.1 수정 완료 후 주문, 추가 부품 구매</td>
-      <td></td>
-      <td></td>
-      <td>11주차 PPT 제작, 11/12 ESW 결과 입선</td>
+      <td>PCB v2.1 수정 완료 후 주문,<br>Edge A.RM.I 전용 코드 라이브러리화,<br>추가 부품 구매</td>
+      <td>〃</td>
+      <td>-</td>
+      <td>11주차 PPT 제작,<br>11/12 ESW 결과 입선</td>
     </tr>
     <tr>
       <td>11/18~11/24</td>
