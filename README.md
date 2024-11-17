@@ -1,4 +1,4 @@
-# 2024_A.RM.I_Public
+![image](https://github.com/user-attachments/assets/45b3d2c8-175a-436c-9115-a35fc444addb)# 2024_A.RM.I_Public
 2024 캡스톤디자인 1, 2 졸업작품 2024_A.RM.I의 main 코드입니다.
 
 ## 작품 사진
@@ -296,45 +296,52 @@
     </tr>
     <tr>
       <td>10/7~10/13</td>
-      <td>SERVER PCB 주문, PCB v2.1 수정 후 주문</td>
-      <td></td>
+      <td>RF용 PCB 수정</td>
+      <td>릴레이 통신을 위한 위치 지정 알고리즘</td>
       <td></td>
       <td>6주차 PPT 제작</td>
     </tr>
     <tr>
       <td>10/14~10/20</td>
-      <td>PCB v2.1 납땜</td>
-      <td></td>
+      <td>RF용 PCB 최종 검토 후 주문</td>
+      <td>//</td>
       <td></td>
       <td>7주차 PPT 제작</td>
     </tr>
     <tr>
       <td>10/21~10/27</td>
+      <td>추가 부품 주문 완료, Edge Device 2개 추가 납땜</td>
+      <td>//</td>
       <td></td>
-      <td></td>
-      <td></td>
-      <td>8주차 PPT 제작, ESW오프라인 심사</td>
+      <td>중간고사(8주차 PPT 제작X)</td>
     </tr>
     <tr>
       <td>10/28~11/3</td>
+      <td>RF용 PCB 작동 확인 완료, 제품 외관 케이스 설계, 3D 프린트</td>
       <td></td>
       <td></td>
-      <td></td>
-      <td>9주차 PPT 제작</td>
+      <td>9주차 PPT 제작, ESW 결선 심사</td>
     </tr>
     <tr>
       <td>11/4~11/10</td>
-      <td></td>
+      <td>PCB v2.1 Schematic, Artwork 수정</td>
       <td></td>
       <td></td>
       <td>10주차 PPT 제작</td>
     </tr>
     <tr>
       <td>11/11~11/17</td>
+      <td>PCB v2.1 수정 완료 후 주문, 추가 부품 구매</td>
       <td></td>
       <td></td>
+      <td>11주차 PPT 제작, 11/12 ESW 결과 입선</td>
+    </tr>
+    <tr>
+      <td>11/18~11/24</td>
+      <td>PCB v2.1 납땜</td>
       <td></td>
-      <td>11주차 PPT 제작</td>
+      <td></td>
+      <td>11주차 PPT 제작, 포스터 제작 완료</td>
     </tr>
   </tbody>
 </table>
