@@ -3,7 +3,7 @@
     1. Edge Device:
        - 1차: [```edge_main_v1.c```](/edge_main_v1.c)
        - 2차: [```edge_main_v2.c```](EdgeDevice/edge_v2/Src/edge_main_v2.c)
-    3. Server Receiver: ``````
+    3. Server Receiver: [```server_receiver_main.c```](Server/server_receiver_main.c)
     4. Server: [```server_main.cpp```](/server_main.cpp)
 
 ## 작동 영상
@@ -63,6 +63,8 @@
       <td align=center><img src="" width="40%"></td>
     </tr>
 </table>
+
+
 
 
 ## 2024-1학기 - 캡스톤디자인1
