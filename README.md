@@ -2,7 +2,7 @@
 - 2024 캡스톤디자인 1, 2 졸업작품 2024_A.RM.I의 main 코드입니다.
     1. Edge Device:
        - 1차: [```edge_main_v1.c```](/edge_main_v1.c)
-       - 2차: 
+       - 2차: [```edge_main_v2.c```](EdgeDevice/edge_v2/Src/edge_main_v2.c)
     3. Server Receiver: ``````
     4. Server: [```server_main.cpp```](/server_main.cpp)
 
