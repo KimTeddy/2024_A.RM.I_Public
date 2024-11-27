@@ -401,8 +401,8 @@
         <th width=35%>AI Network Model</td>
     </tr>
     <tr>
-      <td align=center><img src="https://github.com/user-attachments/assets/610634a6-19c8-4fa0-b4e5-8d13ae972cff" width="60%"></td>
-      <td align=center><img src="https://github.com/user-attachments/assets/0d34fc76-f62b-44b1-97da-7de21a972ae7" width="70%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/610634a6-19c8-4fa0-b4e5-8d13ae972cff" width="80%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/0d34fc76-f62b-44b1-97da-7de21a972ae7" width="80%"></td>
       <td align=center><img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/f937bddf-4006-49fb-a1fd-5cb3fe8f77e1" width="30%"></td>
     </tr>
 </table>
@@ -431,7 +431,7 @@
     </tr>
     <tr>
       <td align=center><img src="https://github.com/user-attachments/assets/a2396123-a8b7-4c30-84b6-130529a9c234" width="60%"></td>
-      <td align=center><img src="https://github.com/user-attachments/assets/11399bd4-d71a-40ce-b579-e2613a62fd51" width="40%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/11399bd4-d71a-40ce-b579-e2613a62fd51" width="60%"></td>
       <td align=center><img src="https://github.com/user-attachments/assets/5b36e58f-62bb-4221-9250-71f8f7f9a577" width="50%"></td>
     </tr>
 </table>
