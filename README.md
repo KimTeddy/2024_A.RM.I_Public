@@ -53,14 +53,14 @@
     <tr align=center>
         <th width=35%>PCB 후면</td>
         <th width=35%>PCB 전면</td>
-        <th width=35%>케이스 조립(후면)</td>
-        <th width=35%>케이스 조립(전면)</td>
+        <!--<th width=35%>케이스 조립(후면)</td>-->
+        <!--<th width=35%>케이스 조립(전면)</td>-->
     </tr>
     <tr>
       <td align=center><img src="" width="40%"></td>
       <td align=center><img src="" width="40%"></td>
-      <td align=center><img src="" width="40%"></td>
-      <td align=center><img src="" width="40%"></td>
+      <!--<td align=center><img src="" width="40%"></td>-->
+      <!--<td align=center><img src="" width="40%"></td>-->
     </tr>
 </table>
 
@@ -379,19 +379,61 @@
  -->
 
 ### 구성도
+
+<table>
+    <tr align=center>
+        <th width=35%>HW 구성도</th>
+        <th width=35%>SW 구성도</td>
+        <th width=35%>AI Network Model</td>
+    </tr>
+    <tr>
+      <td align=center><img src="https://github.com/user-attachments/assets/610634a6-19c8-4fa0-b4e5-8d13ae972cff" width="60%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/0d34fc76-f62b-44b1-97da-7de21a972ae7" width="60%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/5b36e58f-62bb-4221-9250-71f8f7f9a577" width="30%"></td>
+    </tr>
+</table>
+  <!--
 - HW 구성도<br>
-&nbsp;<img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/6d7bc5bb-5b66-4aa1-8b81-71c2848d737e" width="60%">
-
+&nbsp;<img src="https://github.com/user-attachments/assets/610634a6-19c8-4fa0-b4e5-8d13ae972cff" width="60%">
+-->
+  <!--
 - SW 구성도<br>
-&nbsp;<img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/8eb6e8f9-d6c1-46a1-b9cd-afa93e3de618" width="60%">
-
+&nbsp;<img src="https://github.com/user-attachments/assets/0d34fc76-f62b-44b1-97da-7de21a972ae7" width="60%">
+-->
+  <!--
 - AI Network Model<br>
 &nbsp;<img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/f937bddf-4006-49fb-a1fd-5cb3fe8f77e1" width="30%">
+-->
   <!-- ![HW구성도](https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/6d7bc5bb-5b66-4aa1-8b81-71c2848d737e) -->
   <!-- ![SW구성도](https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/8eb6e8f9-d6c1-46a1-b9cd-afa93e3de618) -->
   <!-- ![ai_network_model_test_quant_msy tflite_c_info json](https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/f937bddf-4006-49fb-a1fd-5cb3fe8f77e1) -->
 
+### Flowcharts
+<table>
+    <tr align=center>
+        <th width=35%>Edge Device</th>
+        <th width=35%>Server</td>
+        <th width=35%>1:N</td>
+    </tr>
+    <tr>
+      <td align=center><img src="https://github.com/user-attachments/assets/a2396123-a8b7-4c30-84b6-130529a9c234" width="60%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/11399bd4-d71a-40ce-b579-e2613a62fd51" width="40%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/5b36e58f-62bb-4221-9250-71f8f7f9a577" width="50%"></td>
+    </tr>
+</table>
+<!--
+![1](https://github.com/user-attachments/assets/610634a6-19c8-4fa0-b4e5-8d13ae972cff)
+![2](https://github.com/user-attachments/assets/0d34fc76-f62b-44b1-97da-7de21a972ae7)
+![3](https://github.com/user-attachments/assets/a2396123-a8b7-4c30-84b6-130529a9c234)
+![4](https://github.com/user-attachments/assets/11399bd4-d71a-40ce-b579-e2613a62fd51)
+![5](https://github.com/user-attachments/assets/5b36e58f-62bb-4221-9250-71f8f7f9a577)
+![6](https://github.com/user-attachments/assets/505836b0-883c-4057-949b-cc8087cfca5a)
+![7](https://github.com/user-attachments/assets/cfdd3fe1-26cb-42e8-8f2b-32a7b0b7ffad)
+![8](https://github.com/user-attachments/assets/15152bf8-31e8-4382-82cd-128362a222ee)
+-->
+
 ## 전류 측정
+### Version1
 <table>
     <tr align=center>
         <th width=35%>피크 전류</th>
@@ -402,7 +444,19 @@
       <td align=center><img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/caf8739e-6835-4652-8b9e-8db89d9aea5f" width="35%"></td>
     </tr>
 </table>
-###
+
+### Version2
+<table>
+    <tr align=center>
+        <th width=35%>피크 전류</th>
+        <th width=35%>절전 모드</td>
+    </tr>
+    <tr>
+      <td align=center><img src="https://github.com/user-attachments/assets/505836b0-883c-4057-949b-cc8087cfca5a" width="35%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/cfdd3fe1-26cb-42e8-8f2b-32a7b0b7ffad" width="35%"></td>
+    </tr>
+</table>
+
   <!-- 
 ![KakaoTalk_20240604_165802999_012](https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/cfd80b52-72ba-45be-a965-1033bc8441f8)
 ![KakaoTalk_20240604_1658029992](https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/caf8739e-6835-4652-8b9e-8db89d9aea5f)
