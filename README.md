@@ -376,7 +376,7 @@
 </details>
 
 
-### pcb
+### PCB
 <table>
     <tr align=center>
         <th width=35%>1차 PCB 앞면</th>
