@@ -64,10 +64,24 @@
     </tr>
 </table>
 
+#### RF USB Module
+<table>
+    <tr align=center>
+        <th width=35%>PCB 위</td>
+        <th width=35%>PCB 아래</td>
+    </tr>
+    <tr>
+      <td align=center><img src="https://github.com/user-attachments/assets/7fdf758c-f8c9-41aa-9625-2c94061922a1" width="40%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/f0b34081-e71d-4e43-98a9-cd606b3b4fad" width="40%"></td>
+    </tr>
+</table>
 
+<!--
+![20241030_150355 - 복사본](https://github.com/user-attachments/assets/7fdf758c-f8c9-41aa-9625-2c94061922a1)
+![20241030_150213 - 복사본](https://github.com/user-attachments/assets/f0b34081-e71d-4e43-98a9-cd606b3b4fad)
+-->
 
-
-## 2024-1학기 - 캡스톤디자인1
+## 2024-1학기 - 캡스톤디자인1 <아이디어 확정, 온디바이스 객체인식, PCBv1.0>
 <details>
     <summary>각 팀원별 진행 과정 [펼치기/접기]</summary>
 
@@ -90,7 +104,7 @@
 
 </details>
 
-## 2024-여름방학
+## 2024-여름방학 <YOLOv4(C++), PCBv2.0>
 <details>
     <summary>각 팀원별 진행 과정 [펼치기/접기]</summary>
 
@@ -256,7 +270,7 @@
 -->
 </details>
 
-## 2024-2학기 - 캡스톤디자인2
+## 2024-2학기 - 캡스톤디자인2 <RF 통신, PCBv2.1>
 <details>
     <summary>각 팀원별 진행 과정 [펼치기/접기]</summary>
 
@@ -388,8 +402,8 @@
     </tr>
     <tr>
       <td align=center><img src="https://github.com/user-attachments/assets/610634a6-19c8-4fa0-b4e5-8d13ae972cff" width="60%"></td>
-      <td align=center><img src="https://github.com/user-attachments/assets/0d34fc76-f62b-44b1-97da-7de21a972ae7" width="60%"></td>
-      <td align=center><img src="https://github.com/user-attachments/assets/5b36e58f-62bb-4221-9250-71f8f7f9a577" width="30%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/0d34fc76-f62b-44b1-97da-7de21a972ae7" width="70%"></td>
+      <td align=center><img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/f937bddf-4006-49fb-a1fd-5cb3fe8f77e1" width="30%"></td>
     </tr>
 </table>
   <!--
@@ -448,8 +462,8 @@
 ### Version2
 <table>
     <tr align=center>
-        <th width=35%>피크 전류</th>
-        <th width=35%>절전 모드</td>
+        <th width=35%>피크 전력 시 0.01Ω 션트 저항 전압 강하</th>
+        <th width=35%>절전 모드 시 전류</td>
     </tr>
     <tr>
       <td align=center><img src="https://github.com/user-attachments/assets/505836b0-883c-4057-949b-cc8087cfca5a" width="35%"></td>
@@ -462,5 +476,3 @@
 ![KakaoTalk_20240604_1658029992](https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/caf8739e-6835-4652-8b9e-8db89d9aea5f)
  -->
 
-## 2024-2학기 - 캡스톤디자인2
-- 컴퓨터와 통신
