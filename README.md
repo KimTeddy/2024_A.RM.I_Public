@@ -381,15 +381,19 @@
     <tr align=center>
         <th width=35%>1차 PCB 앞면</th>
         <th width=35%>1차 PCB 뒷면</td>
+        <th width=35%>2차 PCB 뒷면</td>
     </tr>
     <tr>
-      <td align=center><img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/887c4f98-7ed3-4951-9eee-dfe40d755ce4" width="%"></td>
-      <td align=center><img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/7fb04112-5832-4a31-a653-356fcf7f8705" width="%"></td>
+      <td align=center><img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/887c4f98-7ed3-4951-9eee-dfe40d755ce4" width="80%"></td>
+      <td align=center><img src="https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/7fb04112-5832-4a31-a653-356fcf7f8705" width="80%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/f88a8865-c652-4763-8b56-1d10d4bf7ba0" width="80%"></td>
     </tr>
 </table>
   <!-- 
 ![240509_ARMI_PCB_0603_5](https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/887c4f98-7ed3-4951-9eee-dfe40d755ce4)
 ![240509_ARMI_PCB_0603_6](https://github.com/KimTeddy/2024_A.RM.I_Public/assets/68770209/7fb04112-5832-4a31-a653-356fcf7f8705)
+![armi_pcb](https://github.com/user-attachments/assets/f88a8865-c652-4763-8b56-1d10d4bf7ba0)
+
  -->
 
 ### 구성도
