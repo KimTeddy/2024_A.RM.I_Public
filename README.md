@@ -6,8 +6,13 @@
     3. Server Receiver: [```server_receiver_main.c```](Server/server_receiver_main.c)
     4. Server: [```server_main.cpp```](/server_main.cpp)
 
-## 작동 영상
 <div align=center>
+    <img src="https://github.com/user-attachments/assets/6b21c1d9-9659-4d6a-84d2-9f6077af874b" width="30%">
+</div>
+<!--![제목을-입력해주세요_-001](https://github.com/user-attachments/assets/6b21c1d9-9659-4d6a-84d2-9f6077af874b)-->
+
+## 작동 영상
+<div>
     
 [![Video Label](http://img.youtube.com/vi/RNpNJ6A_28k/0.jpg)](https://www.youtube.com/watch?v=RNpNJ6A_28k)
 </div>
@@ -42,29 +47,40 @@
       <td align=center><img src="https://github.com/user-attachments/assets/997c9095-b84f-441b-9be1-441c1d06dbd6" width="75%"></td>
     </tr>
 </table>
+
+
+
+
 <!--
 ![20240831_171155](https://github.com/user-attachments/assets/d342c03b-e8ef-4043-bd37-56ef397f784f)
 ![20241106_170117](https://github.com/user-attachments/assets/e03ac7db-3003-4ef3-b040-5c6877dd2d39)
 ![20241106_170221](https://github.com/user-attachments/assets/997c9095-b84f-441b-9be1-441c1d06dbd6)
 -->
 
-### 3차(추가 예정)
+### 3차
 <table>
     <tr align=center>
-        <th width=35%>PCB 후면</td>
         <th width=35%>PCB 전면</td>
+        <th width=35%>0.01Ω 션트저항 전압강하 측정</td>
         <!--<th width=35%>케이스 조립(후면)</td>-->
         <!--<th width=35%>케이스 조립(전면)</td>-->
     </tr>
     <tr>
-      <td align=center><img src="" width="40%"></td>
-      <td align=center><img src="https://github.com/user-attachments/assets/ba961a23-5b10-41af-b7a5-b2600f8768a0" width="40%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/ba961a23-5b10-41af-b7a5-b2600f8768a0" width="75%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/25a9ec02-6f81-4344-8958-f66d0852449b" width="100%"></td>
+      <!--<td align=center><img src="" width="40%"></td>-->
+      <!--<td align=center><img src="" width="40%"></td>-->
+    </tr>
+    <tr>
+      <td align=center></td>
+      <td align=center>1.5mV / 0.01Ω = 150mA</td>
       <!--<td align=center><img src="" width="40%"></td>-->
       <!--<td align=center><img src="" width="40%"></td>-->
     </tr>
 </table>
 <!--
 ![20241129_145758](https://github.com/user-attachments/assets/ba961a23-5b10-41af-b7a5-b2600f8768a0)
+![20241123_161915_010](https://github.com/user-attachments/assets/25a9ec02-6f81-4344-8958-f66d0852449b)
 -->
 
 #### RF USB Module
