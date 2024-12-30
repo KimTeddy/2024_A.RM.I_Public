@@ -58,11 +58,14 @@
     </tr>
     <tr>
       <td align=center><img src="" width="40%"></td>
-      <td align=center><img src="" width="40%"></td>
+      <td align=center><img src="https://github.com/user-attachments/assets/ba961a23-5b10-41af-b7a5-b2600f8768a0" width="40%"></td>
       <!--<td align=center><img src="" width="40%"></td>-->
       <!--<td align=center><img src="" width="40%"></td>-->
     </tr>
 </table>
+<!--
+![20241129_145758](https://github.com/user-attachments/assets/ba961a23-5b10-41af-b7a5-b2600f8768a0)
+-->
 
 #### RF USB Module
 <table>
@@ -75,10 +78,22 @@
       <td align=center><img src="https://github.com/user-attachments/assets/f0b34081-e71d-4e43-98a9-cd606b3b4fad" width="40%"></td>
     </tr>
 </table>
-
 <!--
 ![20241030_150355 - 복사본](https://github.com/user-attachments/assets/7fdf758c-f8c9-41aa-9625-2c94061922a1)
 ![20241030_150213 - 복사본](https://github.com/user-attachments/assets/f0b34081-e71d-4e43-98a9-cd606b3b4fad)
+-->
+
+#### 아이디어 단계 AI 생성 컨셉 이미지
+<table>
+    <tr align=center>
+        <th width=35%>아이디어 단계 AI 생성 컨셉 이미지</td>
+    </tr>
+    <tr>
+      <td align=center><img src="https://github.com/user-attachments/assets/41d1ff41-9b74-4681-b81f-c7d7df9191d8" width="40%"></td>
+    </tr>
+</table>
+<!--
+![DALL·E](https://github.com/user-attachments/assets/41d1ff41-9b74-4681-b81f-c7d7df9191d8)
 -->
 
 ## 2024-1학기 - 캡스톤디자인1 <아이디어 확정, 온디바이스 객체인식, PCBv1.0>
